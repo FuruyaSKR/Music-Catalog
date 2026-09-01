@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "HTML Snapshot",
+  "version": "1.0.0",
+  "description": "Salva snapshots do HTML da página atual.",
+  "permissions": ["activeTab", "scripting", "storage", "downloads"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
